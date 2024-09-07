@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ body{
+        font-family: "Protest Guerrilla", sans-serif;
+        background-color:#D6BD98;
+
+ }
+ .container h1{
+    display: block;
+    width: 100%;
+    background-color: #40534C;
+    color:#D6BD98;
+    padding: 10px;
+    text-align: center; 
+    
+ }
+ .inner-title{
+    width: 50%;
+    background-color:#1A3636 ;
+    margin: 20px;
+    padding: 10px;
+    position:relative;
+    left: 20%;
+    display: block;
+   
+ }
+ .inner-title #topic{
+    font-size: 1.5rem;
+    text-align: center;
+    padding-bottom: 15px;
+    position: relative;
+    left: 30%;
+    background-color: transparent;
+    border: none;
+    color: #D6BD98;
+ }
+ #topic:focus{
+   background-color: black;
+
+ }
+ .form{
+    margin: 10px;
+ }
+ .form ul{
+    list-style: none;
+ }
+ .form li{
+    padding: 4px;
+ }
+ #textarea{
+    width: 90%;
+    height: 100px;
+    font-size: 1.1rem;
+ }
+ #submit{
+    font-size: 1.2rem;
+    border-radius: 30px;
+    text-align: center;
+    padding: 5px 10px;
+    margin: 5px;
+    border: none;
+    color: #1A3636;
+    background-color: #f89500;
+ }
+ #submit:hover{
+   background-color: black;
+   color: white;
+   cursor: pointer;
+ }
+ #clear{
+   font-size: 1.2rem;
+    border-radius: 30px;
+    text-align: center;
+    padding: 5px 10px;
+    margin: 5px;
+    border: none;
+    color: #1A3636;
+    background-color: #f89500;
+ }
+ #clear:hover{
+   background-color: black;
+   color: white;
+   cursor: pointer;
+ }
+ .inner-content{
+   width: 50%;
+   background-color:#2d6565 ;
+   color: #D6BD98;
+   margin: 20px;
+   padding: 10px;
+   position: relative;
+   left: 20%;  
+ }
+ h3{
+   font-size: 1.1rem;
+   color: #000000;
+   padding: 5px;
+ }
+ h2{
+   font-size: 1.4rem;
+   color:#D6BD98;
+   padding: 5px;
+   text-align: center;
+ }
+ #clear1{
+   font-size: 1.2rem;
+    border-radius: 30px;
+    text-align: center;
+    padding: 5px 10px;
+    margin: 5px;
+    border: none;
+    color: #1A3636;
+    background-color: #f89500;
+ }
+ #clear1:hover{
+   background-color: black;
+   color: white;
+   cursor: pointer;
+ }
+
